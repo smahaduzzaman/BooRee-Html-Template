@@ -1,0 +1,80 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 1px solid #008ed6;
+}
+
+#navbarNav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+#home-section {
+    background-image: url(/images/boo-ree-cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+/* #home-section .dark-overly {
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(black, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 500px;
+    z-index: -2;
+} */
+
+#home-section .home-inner {
+    padding-top: 130px;
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+}
+
+.fa {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+
+#explore-section .fa {
+    color: #fff;
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
